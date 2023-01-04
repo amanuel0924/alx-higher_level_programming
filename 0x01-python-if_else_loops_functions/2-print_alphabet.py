@@ -1,3 +1,7 @@
 #!/usr/bin/python3
-for char in range(97, 123):
-    print("{:c}".format(char), end='')
+
+# write a program that prints the ASCII alphabet,
+# in lowercase, not followed by a new line.
+
+for ch in range(97, 123):
+    print("{:c}".format(ch), end="")
